@@ -4,6 +4,8 @@ public class Main {
     public static void main(String[] args) {
         String nome = "João Ferreira ";
         String sobrenome = "Silva";
+        // string é um objeto, por isso tem métodos. Também posso declarar assim: String nome = new String("João Ferreira");
+        
 
         System.out.println("Tamanho do nome: " + nome.length());
         System.out.println("Nome completo: " + nome.concat(sobrenome));
